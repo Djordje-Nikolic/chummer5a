@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<echoes>
+		<echo>
+			<id>bcd917bc-a01d-44c6-8989-77b2fda37ccd</id>
+			<name>Digital Instinct</name>
+			<source>NA</source>
+			<page>1</page>
+			<bonus>
+				<specificattribute>
+					<name>INT</name>
+					<val>1</val>
+				</specificattribute>
+			</bonus>
+			<limit>3</limit>
+		</echo>
+		<echo>
+			<id>b19b2229-a3c6-459a-b042-1b7d8fdabb3f</id>
+			<name>Drone Companion</name>
+			<source>NA</source>
+			<page>1</page>
+			<limit>1<limit>
+			<required>
+				<oneof>
+					<quality>Resonant Stream: Machinist</quality>
+				</oneof>
+			</required>
+		</echo>
+		<echo>
+			<id>b19b2229-a3c6-459a-b042-1b7d8fdabb3e</id>
+			<name>Resonance Empathy</name>
+			<source>NA</source>
+			<page>1</page>
+			<bonus>
+				<specificattribute>
+					<name>CHA</name>
+					<val>1</val>
+				</specificattribute>
+			</bonus>
+			<limit>3</limit>
+		</echo>
+		<echo>
+			<id>d273d006-5ad2-432f-8b65-53b7eb2d5def</id>
+			<name>Static Shock</name>
+			<required>
+				<allof>
+					<echo>The Van der Waals Effect</echo>
+				</allof>
+			</required>
+			<source>NA</source>
+			<page>1</page>
+			<bonus>
+				<addweapon>
+					<name>Static Shock</name>
+				</addweapon>
+			</bonus>
+			<limit>1</limit>
+		</echo>
+	</echoes>
+</chummer>

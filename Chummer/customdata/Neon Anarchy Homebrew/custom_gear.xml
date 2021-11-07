@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<categories>
+		<category>Parachutes</category>
+		<category>RCC Modules</category>
+	</categories>
+	<gears>
+		<gear>
+			<id>a7380c0e-ec59-41bf-9c0d-8616a211e41d</id>
+			<name>Don-Ac-Dum BTL</name>
+			<category>BTLs</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>8F</avail>
+			<cost>200</cost>
+		</gear>
+		<gear>
+			<id>255b0ddb-e406-422d-ad2c-1156d132bc59</id>
+			<name>Empathin</name>
+			<category>Drugs</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>10R</avail>
+			<cost>50</cost>
+		</gear>
+		<gear>
+			<id>ac151186-5c73-4eee-bd5a-c64e9b1f88a9</id>
+			<name>Venomancer</name>
+			<category>Drugs</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>9R</avail>
+			<cost>400</cost>
+		</gear>
+		<gear>
+			<id>8615df1f-d739-49a7-96c7-ad3ce958085d</id>
+			<name>ID10T</name>
+			<category>Common Programs</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>45</page>
+			<avail>0</avail>
+			<cost>80</cost>
+		</gear>
+		<gear>
+			<id>70b9d065-cc20-4c06-a656-308ae750dc8e</id>
+			<name>Sensor Lock</name>
+			<category>Autosofts</category>
+			<rating>3</rating>
+			<source>NA</source>
+			<page>27</page>
+			<avail>6R</avail>
+			<cost>1500</cost>
+			<minrating>3</minrating>
+		</gear>
+		<gear>
+			<id>c4b7b006-6fc1-40a5-b3f9-00628b7b21a2</id>
+			<name>Specsoft</name>
+			<category>Skillsofts</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>42</page>
+			<avail>8</avail>
+			<cost>10000</cost>
+			<bonus>
+				<selecttext />
+			</bonus>
+		</gear>
+		<gear>
+			<id>19d5d62b-669e-4f99-a8e7-eb0210d3ca94</id>
+			<name>Rerouting Module</name>
+			<category>Cyberdeck Modules</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>65</page>
+			<avail>12F</avail>
+			<armorcapacity>[2]</armorcapacity>
+			<cost>1500</cost>
+			<devicerating>0</devicerating>
+		</gear>
+		<gear>
+			<id>ccebe138-936d-4b23-8d0e-943ffbfa2b49</id>
+			<name>Multiprogram Operating Resonant System</name>
+			<category>Commlink Accessories</category>
+			<rating>6</rating>
+			<source>NA</source>
+			<page>35</page>
+			<avail>(Rating * 3)R</avail>
+			<cost>Rating * 4000</cost>
+			<devicerating>Rating</devicerating>
+			<notes>To attune, you must manually deduct karma.</notes>
+		</gear>
+		<gear>
+			<id>14243f3e-8d05-480d-8e74-b90ee615e700</id>
+			<name>Myomeric Data Cable (10m)</name>
+			<category>Tools of the Trade</category>
+			<rating>999</rating>
+			<source>NA</source>
+			<page>49</page>
+			<avail>8</avail>
+			<allowgear>
+				<name>Manipulator Claw (Myomeric Data Cable)</name>
+				<name>Micro-Camera (Myomeric Data Cable)</name>
+			</allowgear>
+			<cost>Rating*250</cost>
+		</gear>
+		<gear>
+			<id>14243f3e-8d05-480d-8e74-b90ee615e701</id>
+			<name>Manipulator Claw (Myomeric Data Cable)</name>
+			<category>Tools of the Trade</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>49</page>
+			<avail>+1</avail>
+			<cost>+50</cost>
+			<required>
+				<geardetails>
+					<name>Myomeric Data Cable (10m)</name>
+				</geardetails>
+			</required>
+		</gear>
+		<gear>
+			<id>14243f3e-8d05-480d-8e74-b90ee615e702</id>
+			<name>Micro-Camera (Myomeric Data Cable)</name>
+			<category>Tools of the Trade</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>49</page>
+			<avail>+1</avail>
+			<cost>+100</cost>
+			<required>
+				<geardetails>
+					<name>Myomeric Data Cable (10m)</name>
+				</geardetails>
+			</required>
+		</gear>
+		<gear>
+			<id>73ac9f1a-adfe-4807-b511-1d3162a4f8be</id>
+			<name>Elemental Essence</name>
+			<category>Magical Supplies</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>42</page>
+			<avail>16R</avail>
+			<cost>52000</cost>
+			<bonus>
+				<selecttext xml="strings.xml" xpath="/chummer/baseelements/baseelement" />
+			</bonus>
+			<notes>To attune, you must manually deduct karma.</notes>
+		</gear>
+		<gear>
+			<id>b8ad45b8-35f7-4c2c-b9cd-29fbeb59b8f2</id>
+			<name>HMC Cylinder</name>
+			<category>Magical Supplies</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>59</page>
+			<avail>8R</avail>
+			<cost>250</cost>
+		</gear>
+		<gear>
+			<id>b8ad45b8-35f7-4c2c-b9cd-29fbeb59b8f3</id>
+			<name>HMC Cylinder</name>
+			<category>Magical Supplies</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>59</page>
+			<avail>10R</avail>
+			<cost>500</cost>
+		</gear>
+		<gear>
+			<id>b8ad45b8-35f7-4c2c-b9cd-29fbeb59b8f4</id>
+			<name>HMC Coffin</name>
+			<category>Magical Supplies</category>
+			<rating>0</rating>
+			<source>KC</source>
+			<page>59</page>
+			<avail>12R</avail>
+			<cost>2000</cost>
+		</gear>
+		<gear>
+			<id>b8ad45b8-35f7-4c2c-b9cd-29fbeb59b8f5</id>
+			<name>Bastion Module</name>
+			<category>RCC Modules</category>
+			<rating>5</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>Rating*2R</avail>
+			<cost>Rating*1500</cost>
+			<devicerating>0</devicerating>
+		</gear>
+		<gear>
+			<id>b8ad45b8-35f7-4c2c-b9cd-29fbeb59b8f6</id>
+			<name>Signal Masking Module</name>
+			<category>RCC Modules</category>
+			<rating>6</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>Rating*2R</avail>
+			<cost>Rating*6000</cost>
+			<devicerating>0</devicerating>
+		</gear>
+		<gear>
+			<id>b8ad45b8-35f7-4c2c-b9cd-29fbeb59b8f7</id>
+			<name>Noisemaker Module</name>
+			<category>RCC Modules</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>12F</avail>
+			<cost>12000</cost>
+			<devicerating>0</devicerating>
+		</gear>
+		<gear>
+			<id>b8ad45b8-35f7-4c2c-b9cd-29fbeb59b8f1</id>
+			<name>Spirit Lantern</name>
+			<category>Magical Supplies</category>
+			<rating>6</rating>
+			<source>NA</source>
+			<page>59</page>
+			<avail>10</avail>
+			<cost>Rating*200</cost>
+		</gear>
+		<gear>
+			<id>c4d82a69-e9e9-4a66-a72d-177ad422e075</id>
+			<name>Standard Parachute System</name>
+			<category>Parachutes</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>1</page>
+			<avail>0</avail>
+			<cost>1500</cost>
+		</gear>
+		<gear>
+			<id>98521258-b9f4-4217-8bc7-7f627ac2a0e8</id>
+			<name>Spinradical Parachute System</name>
+			<category>Parachutes</category>
+			<rating>4</rating>
+			<source>NA</source>
+			<page>1</page>
+			<avail>Rating * 3</avail>
+			<cost>Rating * 3000</cost>
+		</gear>
+		<gear>
+			<id>89c51d46-1c74-43f5-89a3-5bfe56ef0003</id>
+			<name>Replacement Parachute</name>
+			<category>Parachutes</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>1</page>
+			<avail>0</avail>
+			<cost>750</cost>
+		</gear>
+		<gear>
+			<id>2253af5b-6f78-4266-b95c-35df1de9bf10</id>
+			<name>Arrow: Capsule</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>55</page>
+			<avail>2</avail>
+			<addoncategory>Drugs</addoncategory>
+			<addoncategory>Toxins</addoncategory>
+			<addoncategory>Custom</addoncategory>
+			<cost>5</cost>
+			<weaponbonus>
+				<accuracy>-1</accuracy>
+				<ap>4</ap>
+				<damage>-4</damage>
+			</weaponbonus>
+		</gear>
+		<gear>
+			<id>6d7e09d5-7c93-4dea-ba8c-c0ce25479797</id>
+			<name>Arrow: Grey Metal</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>55</page>
+			<avail>10R</avail>
+			<cost>50</cost>
+		</gear>
+		<gear>
+			<id>db7d53ec-f8c7-4588-950d-5a353962a3b7</id>
+			<name>Arrow: Jammer</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>55</page>
+			<avail>9F</avail>
+			<addoncategory>Drugs</addoncategory>
+			<addoncategory>Toxins</addoncategory>
+			<addoncategory>Custom</addoncategory>
+			<cost>600</cost>
+			<weaponbonus>
+				<accuracy>-2</accuracy>
+				<ap>6</ap>
+				<damage>-2</damage>
+				<damagetype>S</damagetype>
+			</weaponbonus>
+						<gears>
+				<usegear>
+					<name>Jammer, Area</name>
+					<rating>3</rating>
+					<category>Communications and Countermeasures</category>
+				</usegear>
+			</gears>
+		</gear>
+		<gear>
+			<id>9fe05846-800c-4d9d-9605-e2328c2460fa</id>
+			<name>Ammo: Assault Cannon Anti-Armor</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>34</page>
+			<avail>15F</avail>
+			<cost>800</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<ap>-4</ap>
+			</weaponbonus>
+		</gear>
+		<gear>
+			<id>def7b9e4-ea92-487a-aee3-207be7dcbd94</id>
+			<name>Ammo: Assault Cannon Explosive</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>34</page>
+			<avail>15F</avail>
+			<cost>800</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<damage>1</damage>
+			</weaponbonus>
+		</gear>
+		<gear>
+			<id>def7b9e4-ea92-487a-aee3-207be7dcbd95</id>
+			<name>Ammo: Assault Cannon Canister</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>34</page>
+			<avail>15F</avail>
+			<cost>600</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<damage>2</damage>
+				<ap>+5</ap>
+			</weaponbonus>
+		</gear>
+		<gear>
+			<id>ef420bc3-2006-4427-8918-641d175bef2d</id>
+			<name>Ammo: Assault Cannon Incendiary</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>34</page>
+			<avail>14F</avail>
+			<cost>700</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<damage>1</damage>
+				<damagetype>P(fire)</damagetype>
+			</weaponbonus>
+		</gear>
+		<gear>
+			<id>ef420bc3-2006-4427-8918-641d175bef2e</id>
+			<name>Ammo: Assault Cannon Shocker</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>34</page>
+			<avail>12F</avail>
+			<cost>700</cost>
+			<costfor>10</costfor>
+			<weaponbonus>
+				<damage>0</damage>
+				<damagetype>P(e)</damagetype>
+			</weaponbonus>
+		</gear>
+		<gear>
+			<id>53105289-8ba6-46b0-874d-db08e435c459</id>
+			<name>Ammo: Grey Metal</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>34</page>
+			<avail>6R</avail>
+			<cost>120</cost>
+			<costfor>10</costfor>
+		</gear>
+		<gear>
+			<id>5de4d2cf-95a4-4864-ab52-06dd8e4921f5</id>
+			<name>Airsoft Pellets</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>34</page>
+			<avail>4</avail>
+			<cost>10</cost>
+			<costfor>10</costfor>
+		</gear>
+		<gear>
+			<id>8131538e-30db-4cc2-9cad-48b0c9f99a70</id>
+			<name>MTL Cartridge</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>6</avail>
+			<cost>85</cost>
+			<costfor>1</costfor>
+		</gear>
+		<gear>
+			<id>0da738c5-9d66-4246-b770-d2bd4f172835</id>
+			<name>Acid Canisters</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>34</page>
+			<avail>12F</avail>
+			<cost>80</cost>
+			<costfor>10</costfor>
+		</gear>
+		<gear>
+			<id>6e7d477b-6c92-47f1-a57b-d0140ddcb345</id>
+			<name>Airsoft Gas Canister</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>34</page>
+			<avail>4</avail>
+			<cost>50</cost>
+		</gear>
+		<gear>
+			<id>67be5fbe-7db8-49e4-8957-0b189fd493c5</id>
+			<name>Grenade: Grey Mana</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>35</page>
+			<avail>7F</avail>
+			<addweapon>Grenade: Grey Mana</addweapon>
+			<cost>300</cost>
+		</gear>
+		<gear>
+			<id>1c6baa2e-071e-4710-bf2c-36cf2e57e008</id>
+			<name>Grenade: Grey Mana, Aerodynamic</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>35</page>
+			<avail>7F</avail>
+			<addweapon>Grenade: Grey Mana, Aerodynamic</addweapon>
+			<cost>300</cost>
+		</gear>
+		<gear>
+			<id>cf9bd1b0-6833-48fd-88c4-177e3d37d126</id>
+			<name>Minigrenade: Grey Mana</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>35</page>
+			<avail>7F</avail>
+			<addweapon>Minigrenade: Grey Mana</addweapon>
+			<cost>300</cost>
+		</gear>
+		<gear>
+			<id>1f0cd121-473a-4477-beef-cde5ebdead01</id>
+			<name>Mortar Shell: Fireworks</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>8R</avail>
+			<addweapon>Mortar Shell: Fireworks</addweapon>
+			<cost>10</cost>
+			<costfor>1</costfor>
+			<ammoforweapontype>mortar</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>1f0cd121-473a-4477-beef-cde5ebdead02</id>
+			<name>Mortar Shell: Fragmentation</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>15F</avail>
+			<addweapon>Mortar Shell: Fragmentation</addweapon>
+			<cost>500</cost>
+			<costfor>1</costfor>
+			<ammoforweapontype>mortar</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>1f0cd121-473a-4477-beef-cde5ebdead03</id>
+			<name>Mortar Shell: Gas</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>12R</avail>
+			<addweapon>Mortar Shell: Gas</addweapon>
+			<cost>300</cost>
+			<costfor>1</costfor>
+			<ammoforweapontype>mortar</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>1f0cd121-473a-4477-beef-cde5ebdead04</id>
+			<name>Mortar Shell: High Explosive</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>15F</avail>
+			<addweapon>Mortar Shell: High Explosive</addweapon>
+			<cost>500</cost>
+			<costfor>1</costfor>
+			<ammoforweapontype>mortar</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>1f0cd121-473a-4477-b9c6-cde5ebdead05</id>
+			<name>Mortar Shell: Illumination</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>12R</avail>
+			<addweapon>Mortar Shell: Illumination</addweapon>
+			<cost>600</cost>
+			<costfor>1</costfor>
+			<ammoforweapontype>mortar</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>1f0cd121-473a-4477-beef-cde5ebdead06</id>
+			<name>Mortar Shell: Smoke</name>
+			<category>Ammunition</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>12R</avail>
+			<addweapon>Mortar Shell: Smoke</addweapon>
+			<cost>300</cost>
+			<costfor>1</costfor>
+			<ammoforweapontype>mortar</ammoforweapontype>
+		</gear>
+		<gear>
+			<id>1c2f1d6b-a1dd-4d4d-b8df-bbe33bb92b82</id>
+			<name>Powered Exoskeleton</name>
+			<category>Armor Enhancements</category>
+			<rating>0</rating>
+			<armorcapacity>[3]</armorcapacity>
+			<avail>16R</avail>
+			<cost>25000</cost>
+			<source>NA</source>
+			<page>73</page>
+			<required>
+				<parentdetails>
+					<name>Hardpoint</name>
+				</parentdetails>
+			</required>
+		</gear>
+		<gear>
+			<id>c20d9bfe-a9f4-41dc-ba16-b2e6928f6763</id>
+			<name>Personal Power Unit</name>
+			<category>Armor Enhancements</category>
+			<rating>0</rating>
+			<armorcapacity>[1]</armorcapacity>
+			<avail>16R</avail>
+			<cost>16000</cost>
+			<source>NA</source>
+			<page>73</page>
+			<required>
+				<parentdetails>
+					<name>Hardpoint</name>
+				</parentdetails>
+			</required>
+		</gear>
+		<gear>
+			<id>238ef9a4-3a0f-474d-a3ef-3d0eec725775</id>
+			<name>Personal Weapon Mount (Micro)</name>
+			<category>Armor Enhancements</category>
+			<rating>0</rating>
+			<armorcapacity>[1]</armorcapacity>
+			<avail>8R</avail>
+			<cost>400</cost>
+			<source>NA</source>
+			<page>73</page>
+			<required>
+				<parentdetails>
+					<name>Hardpoint</name>
+				</parentdetails>
+			</required>
+		</gear>
+		<gear>
+			<id>92530dc0-616a-4f33-8913-7bde71e1ffc0</id>
+			<name>Personal Weapon Mount (Mini)</name>
+			<category>Armor Enhancements</category>
+			<rating>0</rating>
+			<armorcapacity>[1]</armorcapacity>
+			<avail>4R</avail>
+			<cost>800</cost>
+			<source>NA</source>
+			<page>73</page>
+			<required>
+				<parentdetails>
+					<name>Hardpoint</name>
+				</parentdetails>
+			</required>
+		</gear>
+		<gear>
+			<id>0c08fbf4-2b6b-4f08-a50d-ab8b9e866faf</id>
+			<name>Personal Weapon Mount (Small)</name>
+			<category>Armor Enhancements</category>
+			<rating>0</rating>
+			<armorcapacity>[1]</armorcapacity>
+			<avail>8R</avail>
+			<cost>1600</cost>
+			<source>NA</source>
+			<page>73</page>
+			<required>
+				<parentdetails>
+					<name>Hardpoint</name>
+				</parentdetails>
+			</required>
+		</gear>
+		<gear>
+			<id>eb72f7c5-56c6-4dcc-853a-67d2fc001e54</id>
+			<name>Personal Weapon Mount (Standard)</name>
+			<category>Armor Enhancements</category>
+			<rating>0</rating>
+			<armorcapacity>[1]</armorcapacity>
+			<avail>10F</avail>
+			<cost>2400</cost>
+			<source>NA</source>
+			<page>73</page>
+			<required>
+				<parentdetails>
+					<name>Hardpoint</name>
+				</parentdetails>
+			</required>
+		</gear>
+		<gear>
+			<id>6cf5b7d6-f809-dead-fae5-64792760b006</id>
+			<name>Nitrous Oxide Fuel</name>
+			<category>Chemicals</category>
+			<rating>0</rating>
+			<source>NA</source>
+			<page>0</page>
+			<avail>6</avail>
+			<cost>200</cost>
+		</gear>
+	</gears>
+</chummer>

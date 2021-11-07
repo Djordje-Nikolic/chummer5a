@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <martialarts>
+    <martialart>
+      <name>The Cowboy Way</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Akimbo</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Gun Kata</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Akimbo</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Aikido</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Ethernet Strike</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Ninjutsu</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Ethernet Strike</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Wudang Sword</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Ethernet Strike</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Boxing (Classic Style)</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Mountain Stance</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Tae Kwon Do</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Mountain Stance</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Wrestling (Sumo Style)</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Mountain Stance</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Jujitsu</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Rolling Snake</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Krav Maga</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Rolling Snake</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Wrestling (MMA Style)</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Rolling Snake</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Boxing (Brawler Style)</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Sweeping Hook</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Capoeira</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Sweeping Hook</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Muay Thai</name>
+      <techniques>
+	    <technique amendoperation="addnode">
+          <name>Sweeping Hook</name>
+        </technique>
+      </techniques>
+    </martialart>
+  </martialarts>
+</chummer>

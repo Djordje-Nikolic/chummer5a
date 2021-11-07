@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<vehicles>
+		<vehicle>
+			<id>6cf5b7d6-f809-dead-fae5-64792760b000</id>
+			<name>Ares Industrious Forklift</name>
+			<category>Municipal/Construction</category>
+			<page>0</page>
+			<source>NA</source>
+			<handling>5</handling>
+			<speed>1</speed>
+			<accel>1</accel>
+			<body>12</body>
+			<armor>10</armor>
+			<pilot>1</pilot>
+			<sensor>2</sensor>
+			<seats>1</seats>
+			<avail>0</avail>
+			<cost>20000</cost>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>1</rating>
+					<maxrating>6</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Omnidirectional Wheels</name>
+				<name>Multifuel Engine</name>
+				<name rating="2">Passenger Protection System</name>
+				<name>Winch (Basic)</name>
+				<name select="Forks">Special Equipment</name>
+			</mods>
+		</vehicle>
+		<vehicle>
+			<id>6cf5b7d6-f809-dead-fae5-64792760b001</id>
+			<name>Krime Battle Throne</name>
+			<category>Bikes</category>
+			<page>0</page>
+			<source>NA</source>
+			<handling>4/2</handling>
+			<speed>1</speed>
+			<accel>1</accel>
+			<body>4</body>
+			<armor>6</armor>
+			<pilot>1</pilot>
+			<sensor>2</sensor>
+			<seats>1</seats>
+			<avail>12R</avail>
+			<cost>12000</cost>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>2</rating>
+					<maxrating>6</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Amenities (Low)</name>
+				<name>Mechanical Arm (Basic)</name>
+				<name rating="2">Metahuman Adjustment</name>
+				<name>Rigger Interface</name>
+			</mods>
+			<weaponmounts>
+				<weaponmount>
+					<control>Remote</control>
+					<flexibility>Turret</flexibility>
+					<size>Standard</size>
+					<visibility>Internal</visibility>
+				</weaponmount>
+			</weaponmounts>
+		</vehicle>
+		<vehicle>
+			<id>6cf5b7d6-f809-dead-fae5-64792760b002</id>
+			<name>Metajet Paramotor V9</name>
+			<category>Fixed-Wing Aircraft</category>
+			<page>0</page>
+			<source>NA</source>
+			<handling>4</handling>
+			<speed>3</speed>
+			<accel>1</accel>
+			<body>2</body>
+			<armor>0</armor>
+			<pilot>1</pilot>
+			<sensor>3</sensor>
+			<seats>1</seats>
+			<avail>8</avail>
+			<cost>5000</cost>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>1</rating>
+					<maxrating>6</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Assembly/Disassembly</name>
+			</mods>
+		</vehicle>
+		<vehicle>
+			<id>6cf5b7d6-f809-dead-fae5-64792760b003</id>
+			<name>Proteus Nautilus</name>
+			<category>Submarines</category>
+			<page>0</page>
+			<source>NA</source>
+			<handling>2/4</handling>
+			<speed>1/3</speed>
+			<accel>1</accel>
+			<body>14</body>
+			<armor>10</armor>
+			<pilot>3</pilot>
+			<sensor>3</sensor>
+			<seats>7</seats>
+			<avail>10R</avail>
+			<cost>85000</cost>
+			<gears>
+				<gear>
+					<name>Sensor Array</name>
+					<rating>3</rating>
+					<maxrating>7</maxrating>
+				</gear>
+			</gears>
+			<mods>
+				<name>Extreme Environment Modification</name>
+				<name rating="2">Life Support</name>
+				<name>Searchlight</name>
+			</mods>
+		</vehicle>
+	</vehicles>
+	<mods>
+		<mod>
+			<id>9b98f42c-1abd-431b-8157-4fcdc6bfac88</id>
+			<name>Grey Mana Shielding</name>
+			<page>54</page>
+			<source>NA</source>
+			<avail>FixedValues(16R,16R,16R,20R,20R,20R)</avail>
+			<category>Protection</category>
+			<cost>FixedValues(FixedValues(Rating * 2000,Rating * 2000,Rating * 2000,Rating * 5000,Rating * 5000,Rating * 5000)</cost>
+			<rating>6</rating>
+			<slots>Rating</slots>
+			<notes>A life support system is required for rating 4 or above.</notes>
+		</mod>
+		<mod>
+			<id>6cf5b7d6-f809-dead-fae5-64792760b004</id>
+			<name>Increased Cargo Capacity</name>
+			<page>0</page>
+			<source>NA</source>
+			<avail>4</avail>
+			<category>Body</category>
+			<cost>2000</cost>
+			<rating>0</rating>
+			<slots>2</slots>
+		</mod>
+		<mod>
+			<id>3bc81fa5-9a1d-4117-bc3a-0478996f7351</id>
+			<name>Mil-Spec Frame</name>
+			<page>16</page>
+			<source>NA</source>
+			<avail>10F</avail>
+			<category>Protection</category>
+			<cost>12000</cost>
+			<rating>0</rating>
+			<slots>4</slots>
+		</mod>
+		<mod>
+			<id>3bc81fa5-9a1d-4117-bc3a-0478996f7350</id>
+			<name>Mage Port</name>
+			<page>16</page>
+			<source>NA</source>
+			<avail>14R</avail>
+			<category>Weapons</category>
+			<cost>8000</cost>
+			<rating>0</rating>
+			<slots>1</slots>
+		</mod>
+		<mod>
+			<id>6cf5b7d6-f809-dead-fae5-64792760b005</id>
+			<name>Nitrous Oxide System</name>
+			<page>0</page>
+			<source>NA</source>
+			<avail>10R</avail>
+			<category>Powertrain</category>
+			<cost>Rating * 1000</cost>
+			<rating>6</rating>
+			<slots>1</slots>
+			<notes>Requires a multifuel engine.</notes>
+		</mod>
+		<mod>
+			<id>f56c3103-e5e7-4b7c-8cdf-7ca451163210</id>
+			<name>Reduced Seating (Body)</name>
+			<page>123</page>
+			<source>NA</source>
+			<avail>0</avail>
+			<category>Body</category>
+			<cost>0</cost>
+			<rating>4</rating>
+			<slots>-Rating</slots>
+			<bonus>
+				<seats>-Rating*2</seats>
+			</bonus>
+			<downgrade />
+		</mod>
+		<mod>
+			<id>f56c3103-e5e7-4b7c-8cdf-7ca451163211</id>
+			<name>Reduced Seating (Electromagnetic)</name>
+			<page>123</page>
+			<source>NA</source>
+			<avail>0</avail>
+			<category>Electromagnetic</category>
+			<cost>0</cost>
+			<rating>4</rating>
+			<slots>-Rating</slots>
+			<bonus>
+				<seats>-Rating*2</seats>
+			</bonus>
+			<downgrade />
+		</mod>
+		<mod>
+			<id>f56c3103-e5e7-4b7c-8cdf-7ca451163212</id>
+			<name>Reduced Seating (Powertrain)</name>
+			<page>123</page>
+			<source>NA</source>
+			<avail>0</avail>
+			<category>Powertrain</category>
+			<cost>0</cost>
+			<rating>4</rating>
+			<slots>-Rating</slots>
+			<bonus>
+				<seats>-Rating*2</seats>
+			</bonus>
+			<downgrade />
+		</mod>
+		<mod>
+			<id>f56c3103-e5e7-4b7c-8cdf-7ca451163213</id>
+			<name>Reduced Seating (Protection)</name>
+			<page>123</page>
+			<source>NA</source>
+			<avail>0</avail>
+			<category>Protection</category>
+			<cost>0</cost>
+			<rating>4</rating>
+			<slots>-Rating</slots>
+			<bonus>
+				<seats>-Rating*2</seats>
+			</bonus>
+			<downgrade />
+		</mod>
+		<mod>
+			<id>f56c3103-e5e7-4b7c-8cdf-7ca451163214</id>
+			<name>Reduced Seating (Weapons)</name>
+			<page>123</page>
+			<source>NA</source>
+			<avail>0</avail>
+			<category>Weapons</category>
+			<cost>0</cost>
+			<rating>4</rating>
+			<slots>-Rating</slots>
+			<bonus>
+				<seats>-Rating*2</seats>
+			</bonus>
+			<downgrade />
+		</mod>
+		<mod>
+			<id>a6203aa6-7e37-4459-9b33-2f060d6982b8</id>
+			<name>Omnidirectional Wheels</name>
+			<page>0</page>
+			<source>NA</source>
+			<avail>0</avail>
+			<category>Powertrain</category>
+			<cost>0</cost>
+			<rating>0</rating>
+			<slots>0</slots>
+			<hide />
+		</mod>
+	</mods>
+</chummer>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<qualities>
+		<quality>
+			<name>Thousand-Yard Stare</name>
+			<forbidden>
+				<oneof>
+					<quality>Tacticool Mall Ninja</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Jack of All Trades Master of None</name>
+			<forbidden>
+				<oneof>
+					<quality>Specialist</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Prototype Transhuman</name>
+			<forbidden>
+				<oneof>
+					<quality>Fortune Favors the Bold</quality>
+					<quality>Don't Tell Me the Odds</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Changeling (Class I SURGE)</name>
+			<forbidden>
+				<oneof>
+					<quality>Baseline Biology</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Changeling (Class II SURGE)</name>
+			<forbidden>
+				<oneof>
+					<quality>Baseline Biology</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Changeling (Class III SURGE)</name>
+			<forbidden>
+				<oneof>
+					<quality>Baseline Biology</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Dedicated Conjurer</name>
+			<forbidden>
+				<oneof>
+					<quality>Dedicated Alchemist</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Albinism I</name>
+			<forbidden>
+				<oneof>
+					<quality>Translucent Skin</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Albinism II</name>
+			<forbidden>
+				<oneof>
+					<quality>Translucent Skin</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Dermal Alteration (Bark Skin)</name>
+			<forbidden>
+				<oneof>
+					<quality>Translucent Skin</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Dermal Alteration (Blubber)</name>
+			<forbidden>
+				<oneof>
+					<quality>Translucent Skin</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Dermal Alteration (Dragon Skin)</name>
+			<forbidden>
+				<oneof>
+					<quality>Translucent Skin</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Dermal Alteration (Granite Shell)</name>
+			<forbidden>
+				<oneof>
+					<quality>Translucent Skin</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Dermal Alteration (Rhino Hide)</name>
+			<forbidden>
+				<oneof>
+					<quality>Translucent Skin</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+		<quality>
+			<name>Dermal Deposits</name>
+			<forbidden>
+				<oneof>
+					<quality>Translucent Skin</quality>
+				</oneof>
+			</forbidden>
+		</quality>
+	</qualities>
+</chummer>

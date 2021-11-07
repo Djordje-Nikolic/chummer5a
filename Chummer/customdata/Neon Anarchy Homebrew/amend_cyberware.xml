@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<cyberwares>
+		<cyberware>
+			<!-- Armor -->
+			<id>8ea736c6-5a90-471c-9320-18432ec9aaf0</id>
+			<forbidden>
+				<parentdetails>
+					<OR>
+						<name>Cyber Manipulator</name>
+					</OR>
+				</parentdetails>
+			</forbidden>
+		</cyberware>
+		<cyberware>
+			<!-- Cyberlimb Optimization -->
+			<id>2a6ab1b1-f008-4c92-83d9-a298a5dad855</id>
+			<forbidden>
+				<parentdetails>
+					<OR>
+						<name>Cyber Manipulator</name>
+					</OR>
+				</parentdetails>
+			</forbidden>
+		</cyberware>
+		<cyberware>
+			<!--Smart Articulation-->
+			<id>a35e5b3f-c6a9-4c2e-a8e6-b7ed58d656c9</id>
+			<forbidden>
+				<oneof>
+					<cyberware>Cyber Manipulator</cyberware>
+				</oneof>
+			</forbidden>
+		</cyberware>
+		<cyberware>
+			<name>Dermal Plating</name>
+			<forbidden>
+				<oneof>
+					<quality>Translucent Skin</quality>
+				</oneof>
+			</forbidden>
+		</cyberware>
+	</cyberwares>
+</chummer>

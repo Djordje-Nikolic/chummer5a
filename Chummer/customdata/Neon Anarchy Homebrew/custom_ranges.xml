@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<ranges>
+		<range>
+			<name>Electrokinesis</name>
+			<min>0</min>
+			<short>BOD</short>
+			<medium>-1</medium>
+			<long>-1</long>
+			<extreme>-1</extreme>
+		</range>
+		<range>
+			<name>Light Mortars</name>
+			<min>30</min>
+			<short>1500</short>
+			<medium>-1</medium>
+			<long>-1</long>
+			<extreme>-1</extreme>
+		</range>
+		<range>
+			<name>Heavy Mortars</name>
+			<min>60</min>
+			<short>3000</short>
+			<medium>-1</medium>
+			<long>-1</long>
+			<extreme>-1</extreme>
+		</range>
+	</ranges>
+</chummer>

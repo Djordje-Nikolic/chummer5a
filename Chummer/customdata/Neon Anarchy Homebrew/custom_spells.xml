@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<spells>
+		<spell>
+			<id>9a805c03-0e84-4899-a5ab-12237b156320</id>
+			<name>[Element] Barrage</name>
+			<category>Combat</category>
+			<damage>P</damage>
+			<descriptor>Indirect, Elemental</descriptor>
+			<duration>I</duration>
+			<dv>F-3</dv>
+			<range>T</range>
+			<type>P</type>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>NA</source>
+			<page>1</page>
+		</spell>
+		<spell>
+			<id>9a805c03-0e84-4899-a5ab-12237b156321</id>
+			<name>[Element] Blade</name>
+			<category>Combat</category>
+			<damage>P</damage>
+			<descriptor>Elemental</descriptor>
+			<duration>S</duration>
+			<dv>F-1</dv>
+			<range>Special</range>
+			<type>P</type>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>NA</source>
+			<page>1</page>
+		</spell>
+		<spell>
+			<id>9a805c03-0e84-4899-a5ab-12237b15631f</id>
+			<name>[Element] Touch</name>
+			<category>Combat</category>
+			<damage>P</damage>
+			<descriptor>Indirect, Elemental</descriptor>
+			<duration>I</duration>
+			<dv>F-4</dv>
+			<range>T</range>
+			<type>P</type>
+			<bonus>
+				<selecttext />
+			</bonus>
+			<source>NA</source>
+			<page>1</page>
+		</spell>
+	</spells>
+</chummer>

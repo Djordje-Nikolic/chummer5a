@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+		Chummer5a is free software: you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of the License, or
+		(at your option) any later version.
+
+		Chummer5a is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
+		GNU General Public License for more details.
+
+		You should have received a copy of the GNU General Public License
+		along with Chummer5a.	If not, see <http://www.gnu.org/licenses/>.
+
+		You can obtain the full source code for Chummer5a at
+		https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<mentors>
+		<mentor>
+			<id>136a3dc5-d9cc-451d-bc24-725f54692000</id>
+			<name>Blacksmith</name>
+			<advantage>All: +2 dice to Armorer, Artisan or Artificing (choose one)</advantage>
+			<disadvantage>The Blacksmith knows the value of hard work and all the effort that goes into it. Followers of Blacksmith must succeed on a Charisma + Willpower (3) test before they can bring themselves to harm or destroy any work of craftsmanship or art or even a place of craftsmanship, such as a workshop of any kind.</disadvantage>
+			<choices>
+				<choice>
+					<name>+2 dice to Armorer</name>
+					<bonus>
+						<specificskill>
+							<name>Armorer</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice>
+					<name>+2 dice to Artisan</name>
+					<bonus>
+						<specificskill>
+							<name>Artisan</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice>
+					<name>+2 dice to Artificing</name>
+					<bonus>
+						<specificskill>
+							<name>Artificing</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice set="2">
+					<name>Magician: +2 dice for summoning Fire spirits.</name>
+				</choice>
+				<choice set="2">
+					<name>Adept: Free Elemental Weapon (Fire) (SG 170).</name>
+					<bonus>
+						<specificpower>
+							<name>Elemental Weapon</name>
+							<val>1</val>
+						</specificpower>
+					</bonus>
+				</choice>
+			</choices>
+			<source>NA</source>
+			<page>0</page>
+		</mentor>
+		<mentor>
+			<id>136a3dc5-d9cc-451d-bc24-725f54692001</id>
+			<name>Bull</name>
+			<advantage>All: +2 dice to Clubs or Running (choose one)</advantage>
+			<disadvantage>Once you have set your mind on something, such as a plan or course of action, you must succeed on a Charisma + Willpower (3) test to deviate from it, no matter how much you are persuaded.</disadvantage>
+			<choices>
+				<choice>
+					<name>+2 dice to Clubs</name>
+					<bonus>
+						<specificskill>
+							<name>Clubs</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice>
+					<name>+2 dice to Running</name>
+					<bonus>
+						<specificskill>
+							<name>Running</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice set="2">
+					<name>Magician: +2 dice for summoning Beast spirits.</name>
+				</choice>
+				<choice set="2">
+					<name>Free Spirit Ram (SG 174).</name>
+					<bonus>
+						<specificpower>
+							<name>Spirit Ram</name>
+							<val>1</val>
+						</specificpower>
+					</bonus>
+				</choice>
+			</choices>
+			<source>NA</source>
+			<page>0</page>
+		</mentor>
+		<mentor>
+			<id>136a3dc5-d9cc-451d-bc24-725f54692002</id>
+			<name>Dragon</name>
+			<advantage>All: +2 dice to one social skill of choice</advantage>
+			<disadvantage>You must make a Charisma + Willpower (3) test to give away something you own. If you believe someone possesses something that you rightfully own, make the same test. If you fail, you must do whatever it takes to get it.</disadvantage>
+			<bonus>
+				<selectskill skillcategory="Social Active">
+					<val>2</val>
+				</selectskill>
+			</bonus>
+			<choices>
+				<choice>
+					<name>Magician: +2 dice for Manipulation spells, preparations, and rituals.</name>
+					<bonus>
+						<spellcategory>
+							<name>Manipulation</name>
+							<val>2</val>
+						</spellcategory>
+					</bonus>
+				</choice>
+				<choice>
+					<name>Adept: 1 free level of Mystic Armor.</name>
+					<bonus>
+						<specificpower>
+							<name>Mystic Armor</name>
+							<val>1</val>
+						</specificpower>
+					</bonus>
+				</choice>
+			</choices>
+			<source>NA</source>
+			<page>0</page>
+		</mentor>
+		<mentor>
+			<id>136a3dc5-d9cc-451d-bc24-725f54692003</id>
+			<name>Fox</name>
+			<advantage>All: +2 dice to Sneaking or Tracking (your choice)</advantage>
+			<disadvantage>Followers of Fox try to avoid direct confrontation, at least before they have used stealth and deceit to disorient their enemies. You must succeed on a Charisma + Willpower (3) test to confront an enemy in combat before you have successfully affected them with some kind of illusion, sneak attack or misdirection.</disadvantage>
+			<choices>
+				<choice>
+					<name>+2 dice to Sneaking</name>
+					<bonus>
+						<specificskill>
+							<name>Sneaking</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice>
+					<name>+2 dice to Tracking</name>
+					<bonus>
+						<specificskill>
+							<name>Tracking</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice set="2">
+					<name>Magician: +2 dice for summoning Fire spirits</name>
+					<bonus>
+						<spellcategory>
+							<name>Health</name>
+							<val>2</val>
+						</spellcategory>
+					</bonus>
+				</choice>
+				<choice set="2">
+					<name>Adept: Gain 2 free levels of Danger Sense.</name>
+					<bonus>
+						<specificpower>
+							<name>Danger Sense</name>
+							<val>2</val>
+						</specificpower>
+					</bonus>
+				</choice>
+			</choices>
+			<source>NA</source>
+			<page>0</page>
+		</mentor>
+		<mentor>
+			<id>136a3dc5-d9cc-451d-bc24-725f54692004</id>
+			<name>Great Guardian</name>
+			<advantage>All: +2 dice to Archery, Blades, Clubs, Throwing Weapons or Unarmed Combat (choose one)</advantage>
+			<disadvantage>Whenever you see a friend, loved one, teammate or an innocent person (that cannot defend themself) under physical attack, make a Willpower + Charisma (3) test. If you fail, you must protect them at all costs, which includes engaging in combat with the attacker. You must also succeed on a Willpower + Charisma (3) test to kill an incapacitated or surrendered enemy.</disadvantage>
+			<choices>
+				<choice>
+					<name>+2 dice to Archery</name>
+					<bonus>
+						<specificskill>
+							<name>Archery</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice>
+					<name>+2 dice to Blades</name>
+					<bonus>
+						<specificskill>
+							<name>Blades</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice>
+					<name>+2 dice to Clubs</name>
+					<bonus>
+						<specificskill>
+							<name>Clubs</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice>
+					<name>+2 dice to Throwing Weapons</name>
+					<bonus>
+						<specificskill>
+							<name>Throwing Weapons</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice>
+					<name>+2 dice to Unarmed Combat</name>
+					<bonus>
+						<specificskill>
+							<name>Unarmed Combat</name>
+							<bonus>2</bonus>
+						</specificskill>
+					</bonus>
+				</choice>
+				<choice set="2">
+					<name>Magician: +2 dice for summoning Guardian spirits</name>
+					<bonus>
+						<spellcategory>
+							<name>Health</name>
+							<val>2</val>
+						</spellcategory>
+					</bonus>
+				</choice>
+				<choice set="2">
+					<name>Adept: Free Critical Strike (for one skill) (SR5 309).</name>
+					<bonus>
+						<specificpower>
+							<name>Critical Strike</name>
+							<val>1</val>
+						</specificpower>
+					</bonus>
+				</choice>
+			</choices>
+			<source>NA</source>
+			<page>0</page>
+		</mentor>
+		<mentor>
+			<id>136a3dc5-d9cc-451d-bc24-725f54692005</id>
+			<name>Rhino</name>
+			<advantage>All: +3 armor (stacks with everything)</advantage>
+			<disadvantage>Rhino’s influence affects your metabolism and increases your need to eat more. Your Lifestyle cost is increased by +50%.</disadvantage>
+			<bonus>
+				<armor>3</armor>
+			</bonus>
+			<choices>
+				<choice>
+					<name>Magician: +2 dice for Health spells, preparations, and rituals.</name>
+					<bonus>
+						<spellcategory>
+							<name>Health</name>
+							<val>2</val>
+						</spellcategory>
+					</bonus>
+				</choice>
+				<choice>
+					<name>Adept: 2 free levels of Iron Gut (SSP 23).</name>
+					<bonus>
+						<specificpower>
+							<name>Iron Gut</name>
+							<val>2</val>
+						</specificpower>
+					</bonus>
+				</choice>
+				<choice>
+					<name>Adept: Free Spirit Ram (SG 174).</name>
+					<bonus>
+						<specificpower>
+							<name>Spirit Ram</name>
+							<val>1</val>
+						</specificpower>
+					</bonus>
+				</choice>
+			</choices>
+			<source>NA</source>
+			<page>0</page>
+		</mentor>
+	</mentors>
+</chummer>

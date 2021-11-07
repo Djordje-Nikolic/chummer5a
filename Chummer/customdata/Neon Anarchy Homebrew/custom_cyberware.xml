@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<cyberwares>
+		<cyberware>
+			<id>f0a4d29e-0614-4f0f-b41c-7e670f254c5a</id>
+			<name>Angel System</name>
+			<category>Bodyware</category>
+			<ess>1</ess>
+			<capacity>[6]</capacity>
+			<avail>16F</avail>
+			<cost>40000</cost>
+			<source>NA</source>
+			<page>56</page>
+			<required>
+				<parentdetails>
+					<OR>
+						<NONE />
+						<name operation="contains">Torso</name>
+					</OR>
+				</parentdetails>
+			</required>
+		</cyberware>
+		<cyberware>
+			<id>f0a4d29e-0614-4f0f-b41c-7e670f254c5b</id>
+			<name>Cyber Manipulator</name>
+			<limit>4</limit>
+			<category>Cyberlimb</category>
+			<ess>1.25</ess>
+			<capacity>15</capacity>
+			<avail>8</avail>
+			<cost>20000</cost>
+			<source>NA</source>
+			<page>56</page>
+			<allowgear>
+				<gearcategory>Sensors</gearcategory>
+			</allowgear>
+			<allowsubsystems>
+				<category>Bodyware</category>
+				<category>Cosmetic Enhancement</category>
+				<category>Cyberlimb</category>
+				<category>Cyberlimb Enhancement</category>
+				<category>Cyberlimb Accessory</category>
+				<category>Cyber Implant Weapon</category>
+				<category>Headware</category>
+				<category>Nanocybernetics</category>
+			</allowsubsystems>
+			<bonus>
+				<limitmodifier>
+					<limit>Social</limit>
+					<value>-1</value>
+				</limitmodifier>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<cyberware>Smart Articulation</cyberware>
+					<quality>Functional Wings</quality>
+				</oneof>
+			</forbidden>
+		</cyberware>
+		<cyberware>
+			<id>f0a4d29e-0614-4f0f-b41c-7c677f254c5b</id>
+			<name>Impact Plate</name>
+			<limit>False</limit>
+			<category>Cyberlimb Enhancement</category>
+			<ess>0</ess>
+			<capacity>[1]</capacity>
+			<avail>4</avail>
+			<cost>400</cost>
+			<source>NA</source>
+			<page>56</page>
+			<bonus>
+				<unarmeddv>0.5</unarmeddv>
+				<unarmedap>-1</unarmedap>
+			</bonus>
+			<required>
+				<parentdetails>
+					<OR>
+						<name operation="contains">Full Arm</name>
+						<name operation="contains">Lower Arm</name>
+						<name operation="contains">Hand</name>
+						<name operation="contains">Full Leg</name>
+						<name operation="contains">Lower Leg</name>
+						<name operation="contains">Foot</name>
+					</OR>
+				</parentdetails>
+			</required>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>f0a4d29e-0614-4f0f-b41c-7e670f254c5c</id>
+			<name>Cerebretron</name>
+			<category>Headware</category>
+			<ess>Rating * 0.25</ess>
+			<capacity>[Rating]</capacity>
+			<avail>Rating * 5</avail>
+			<cost>Rating * 20000</cost>
+			<source>NA</source>
+			<page>47</page>
+			<rating>4</rating>
+			<bonus>
+				<memory>Rating</memory>
+				<mentallimit>Rating</mentallimit>
+				<skillcategory>
+					<name>Academic</name>
+					<bonus>Rating</bonus>
+				</skillcategory>
+				<skillcategory>
+					<name>Interest</name>
+					<bonus>Rating</bonus>
+				</skillcategory>
+				<skillcategory>
+					<name>Language</name>
+					<bonus>Rating</bonus>
+				</skillcategory>
+				<skillcategory>
+					<name>Professional</name>
+					<bonus>Rating</bonus>
+				</skillcategory>
+				<skillcategory>
+					<name>Street</name>
+					<bonus>Rating</bonus>
+				</skillcategory>
+			</bonus>
+			<forbidden>
+				<oneof>
+					<cyberware>Mnemonic Enhancer</cyberware>
+				</oneof>
+			</forbidden>
+		</cyberware>
+		<cyberware>
+			<id>f0a4d29e-0614-4f0f-b41c-7e670f254c5d</id>
+			<name>Computer Assisted Polygraph Integration</name>
+			<category>Headware</category>
+			<ess>Rating * 0.1</ess>
+			<capacity>0</capacity>
+			<avail>Rating * 3</avail>
+			<cost>Rating * 6000</cost>
+			<source>NA</source>
+			<page>47</page>
+			<rating>3</rating>
+			<bonus>
+				<sociallimit>Rating</sociallimit>
+				<judgeintentions>Rating</judgeintentions>
+			</bonus>
+		</cyberware>
+		<cyberware>
+			<id>784589db-2be2-45d0-ac6e-52f78abf9008</id>
+			<name>Implanted RCC</name>
+			<limit>False</limit>
+			<category>Headware</category>
+			<ess>0.4</ess>
+			<capacity>[4]</capacity>
+			<avail>5R</avail>
+			<cost>5000</cost>
+			<source>SR5</source>
+			<page>452</page>
+			<allowgear>
+				<gearcategory>Rigger Command Consoles</gearcategory>
+			</allowgear>
+		</cyberware>
+		<cyberware>
+			<id>1f0cd121-473a-4477-b9c6-cde5ebdead01</id>
+			<name>T-Ray Recognizer Overlay</name>
+			<limit>False</limit>
+			<category>Eyeware</category>
+			<ess>0</ess>
+			<capacity>[1]</capacity>
+			<avail>10R</avail>
+			<cost>1500</cost>
+			<source>NA</source>
+			<page>0</page>
+			<requireparent />
+		</cyberware>
+		<cyberware>
+			<id>1f0cd121-473a-4477-b9c6-cde5ebdead00</id>
+			<name>Target Predictor</name>
+			<limit>False</limit>
+			<category>Eyeware</category>
+			<ess>0.2</ess>
+			<capacity>[3]</capacity>
+			<avail>12R</avail>
+			<cost>12000</cost>
+			<source>NA</source>
+			<page>1</page>
+		</cyberware>
+		<cyberware>
+			<id>0ff2d710-3954-4a50-abf5-8a9f1f4f7d80</id>
+			<name>Tissue Repair System</name>
+			<limit>False</limit>
+			<category>Hard Nanoware</category>
+			<ess>0</ess>
+			<capacity>0</capacity>
+			<avail>14F</avail>
+			<cost>Rating * 6000</cost>
+			<source>NA</source>
+			<page>47</page>
+			<forcegrade>None</forcegrade>
+			<rating>6</rating>
+		</cyberware>
+		<cyberware>
+			<id>0ff2d710-3954-4a50-abf5-8a9f1f4f7d81</id>
+			<name>Micro Manipulator</name>
+			<category>Nanocybernetics</category>
+			<ess>0.05</ess>
+			<capacity>[1]</capacity>
+			<avail>8</avail>
+			<cost>4000</cost>
+			<source>NA</source>
+			<page>47</page>
+			<forcegrade>None</forcegrade>
+			<bonus>
+				<specificskill>
+					<name>Hardware</name>
+					<bonus>1</bonus>
+				</specificskill>
+			</bonus>
+			<required>
+				<parentdetails>
+					<OR>
+						<NONE />
+						<name operation="contains">Full Arm</name>
+						<name operation="contains">Lower Arm</name>
+						<name operation="contains">Hand</name>
+					</OR>
+				</parentdetails>
+			</required>
+		</cyberware>
+	</cyberwares>
+</chummer>

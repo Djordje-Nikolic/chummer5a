@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<biowares>
+		<bioware>
+			<id>e9809ead-9028-49b0-bcbe-b2b6538b50aa</id>
+			<name>Neural Hardening</name>
+			<category>Cultured</category>
+			<ess>Rating * 0.1</ess>
+			<capacity>0</capacity>
+			<avail>(Rating * 6)</avail>
+			<cost>Rating * 20000</cost>
+			<rating>3</rating>
+			<bonus>
+				<conditionmonitor>
+					<stun>Rating</stun>
+				</conditionmonitor>
+			</bonus>
+			<source>NA</source>
+			<page>1</page>
+		</bioware>
+		<bioware>
+			<id>9ff3875b-f647-4751-8e54-0687cf75ec19</id>
+			<name>Secondary Heart</name>
+			<category>Cultured</category>
+			<ess>Rating * 0.2</ess>
+			<capacity>0</capacity>
+			<avail>(Rating * 8)</avail>
+			<cost>Rating * 40000</cost>
+			<rating>2</rating>
+			<bonus>
+				<specificattribute>
+					<name precedence="0">BOD</name>
+					<val>Rating</val>
+				</specificattribute>
+			</bonus>
+			<source>NA</source>
+			<page>1</page>
+			<notes>If you do not have cyberlimbs, you must apply the additional condition modifier boxes manually under improvements.</notes>
+		</bioware>
+	</biowares>
+</chummer>

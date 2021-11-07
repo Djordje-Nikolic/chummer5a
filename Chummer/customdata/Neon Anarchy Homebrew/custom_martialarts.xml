@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+		Chummer5a is free software: you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of the License, or
+		(at your option) any later version.
+
+		Chummer5a is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
+		GNU General Public License for more details.
+
+		You should have received a copy of the GNU General Public License
+		along with Chummer5a.	If not, see <http://www.gnu.org/licenses/>.
+
+		You can obtain the full source code for Chummer5a at
+		https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<martialarts>
+		<martialart>
+			<id>f0b55f24-a184-4d91-a4c2-71b480bace0c</id>
+			<name>Dragon</name>
+			<bonus>
+				<addskillspecializationoption>
+					<skill>Unarmed Combat</skill>
+					<spec>Dragon</spec>
+				</addskillspecializationoption>
+			</bonus>
+			<techniques>
+				<technique>
+					<name>Clinch</name>
+				</technique>
+				<technique>
+					<name>Coiling Dragon</name>
+				</technique>
+				<technique>
+					<name>Counterstrike</name>
+				</technique>
+				<technique>
+					<name>Flowing Dragon</name>
+				</technique>
+				<technique>
+					<name>Yielding Force (Counterstrike)</name>
+				</technique>
+				<technique>
+					<name>Yielding Force (Throw)</name>
+				</technique>
+				<technique>
+					<name>Throw</name>
+				</technique>
+			</techniques>
+			<source>NA</source>
+			<page>0</page>
+		</martialart>
+	</martialarts>
+	<techniques>
+		<technique>
+			<id>dc71f5b4-38a2-4bc3-8fea-b10dd7af761f</id>
+			<name>Akimbo</name>
+			<source>NA</source>
+			<page>1</page>
+		</technique>
+		<technique>
+			<id>dc71f5b4-38a2-4bc3-8fea-b10dada90100</id>
+			<name>Coiling Dragon</name>
+			<source>NA</source>
+			<page>1</page>
+		</technique>
+		<technique>
+			<id>dc71f5b4-38a2-4bc3-8fea-b10dada90101</id>
+			<name>Ethernet Strike</name>
+			<source>NA</source>
+			<page>1</page>
+		</technique>
+		<technique>
+			<id>dc71f5b4-38a2-4bc3-8fea-b10dada90102</id>
+			<name>Flowing Dragon</name>
+			<source>NA</source>
+			<page>1</page>
+		</technique>
+		<technique>
+			<id>dc71f5b4-38a2-4bc3-8fea-b10dada90103</id>
+			<name>Mountain Stance</name>
+			<source>NA</source>
+			<page>1</page>
+		</technique>
+		<technique>
+			<id>dc71f5b4-38a2-4bc3-8fea-b10dada90104</id>
+			<name>Rolling Snake</name>
+			<source>NA</source>
+			<page>1</page>
+		</technique>
+		<technique>
+			<id>dc71f5b4-38a2-4bc3-8fea-b10dada90105</id>
+			<name>Sweeping Hook</name>
+			<source>NA</source>
+			<page>1</page>
+		</technique>
+	</techniques>
+</chummer>

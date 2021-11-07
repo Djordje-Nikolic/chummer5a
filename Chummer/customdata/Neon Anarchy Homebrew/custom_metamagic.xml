@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<metamagics>
+		<metamagic>
+			<id>fb0d4dca-e6b9-4fa2-9c28-5ad981d050a8</id>
+			<name>Astral Bulwark</name>
+			<adept>False</adept>
+			<magician>True</magician>
+			<limit>False</limit>
+			<source>NA</source>
+			<page>26</page>
+		</metamagic>
+		<metamagic>
+			<id>b0b2fc18-90be-4c45-879b-57ef78539609</id>
+			<name>Devoted Weapon</name>
+			<adept>True</adept>
+			<magician>True</magician>
+			<limit>False</limit>
+			<source>NA</source>
+			<page>26</page>
+		</metamagic>
+		<metamagic>
+			<id>542597e0-33db-4ead-af7a-6af4ff9f2250</id>
+			<name>Improved Apotropaic Magic</name>
+			<adept>True</adept>
+			<magician>True</magician>
+			<required>
+				<allof>
+					<art>Apotropaic Magic</art>
+				</allof>
+			</required>
+			<limit>False</limit>
+			<source>NA</source>
+			<page>26</page>
+		</metamagic>
+		<metamagic>
+			<id>70b1313a-0e51-44ec-9663-6cfa494e9127</id>
+			<name>Psychometric Scrying</name>
+			<adept>True</adept>
+			<magician>True</magician>
+			<required>
+				<allof>
+					<art>Psychometry</art>
+					<metamagic>Psychometry</metamagic>
+				</allof>
+			</required>
+			<limit>False</limit>
+			<source>NA</source>
+			<page>26</page>
+		</metamagic>
+		<metamagic>
+			<id>8830c582-51fc-4ad4-9c03-55c81f821506</id>
+			<name>Advanced Psychometric Scrying</name>
+			<adept>True</adept>
+			<magician>True</magician>
+			<required>
+				<allof>
+					<art>Psychometry</art>
+					<metamagic>Psychometry</metamagic>
+					<metamagic>Psychometric Scrying</metamagic>
+				</allof>
+			</required>
+			<limit>False</limit>
+			<source>NA</source>
+			<page>26</page>
+		</metamagic>
+	</metamagics>
+</chummer>

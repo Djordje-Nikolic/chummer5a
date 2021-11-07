@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<armors>
+		<armor>
+			<id>aa18e16b-e80f-48f1-9e7b-676bbe0e01c1</id>
+			<name>Ares Shock and Awe Buckler</name>
+			<category>Armor</category>
+			<armor>+1</armor>
+			<armorcapacity>3</armorcapacity>
+			<addweapon>Ares Shock and Awe Buckler</addweapon>
+			<avail>10R</avail>
+			<cost>1000</cost>
+			<source>NA</source>
+			<page>38</page>
+		</armor>
+		<armor>
+			<id>4a547169-a994-47d4-a3d2-796f49703220</id>
+			<name>Krime Porcupine Shield</name>
+			<category>Armor</category>
+			<armor>+4</armor>
+			<armorcapacity>0</armorcapacity>
+			<addweapon>Krime Porcupine Shield</addweapon>
+			<avail>12R</avail>
+			<cost>1200</cost>
+			<source>NA</source>
+			<page>38</page>
+		</armor>
+		<armor>
+			<id>639af73f-8e52-4589-9ef3-f450e580a072</id>
+			<name>Spinrad Frisbee Shield</name>
+			<category>Armor</category>
+			<armor>+2</armor>
+			<armorcapacity>0</armorcapacity>
+			<addweapon>Spinrad Frisbee Shield (Melee)</addweapon>
+			<addweapon>Spinrad Frisbee Shield (Thrown, Lethal)</addweapon>
+			<addweapon>Spinrad Frisbee Shield (Thrown, Non-Lethal)</addweapon>
+			<avail>14R</avail>
+			<cost>5000</cost>
+			<source>NA</source>
+			<page>38</page>
+		</armor>
+	</armors>
+	<mods>
+		<mod>
+			<id>d45032ca-6f45-471b-b93f-e8b69020fde0</id>
+			<name>Comprehensive Seal</name>
+			<category>General</category>
+			<armor>0</armor>
+			<maxrating>1</maxrating>
+			<armorcapacity>[4]</armorcapacity>
+			<avail>16R</avail>
+			<cost>20000</cost>
+			<source>NA</source>
+			<page>37</page>
+			<notes>Requires chemical seal.</notes>
+		</mod>
+		<mod>
+			<id>fa69ac10-dc5b-4fac-b9ce-4a4646b9410a</id>
+			<name>Hardpoint</name>
+			<category>General</category>
+			<armor>0</armor>
+			<maxrating>20</maxrating>
+			<armorcapacity>FixedValues([4],[8],[12],[16],[20],[24])</armorcapacity>
+			<gearcapacity>Rating</gearcapacity>
+			<avail>8</avail>
+			<cost>Rating * 500</cost>
+			<source>NA</source>
+			<page>73</page>
+		</mod>
+	</mods>
+</chummer>

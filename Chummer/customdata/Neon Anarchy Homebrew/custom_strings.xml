@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part a series of data files created for r/NeonAnarchy.
+
+	You can learn more at
+	https://www.reddit.com/r/NeonAnarchy
+-->
+<chummer>
+	<baseelements>
+		<baseelement>Air</baseelement>
+		<baseelement>Earth</baseelement>
+		<baseelement>Fire</baseelement>
+		<baseelement>Water</baseelement>
+	</baseelements>
+</chummer>
